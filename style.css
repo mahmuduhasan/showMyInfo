@@ -1,0 +1,21 @@
+body {
+  /* background: linear-gradient(lime, yellow); */
+  width: 90vw;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  transform: translateX(-500px);
+}
+
+#canvas {
+  /* display: none; */
+  visibility: hidden;
+  height: 400px;
+  margin-left: 110px;
+  /* border: 1px solid gray; */
+}
